@@ -4,8 +4,9 @@
 
 ## 插件介绍
 
-	该插件从最简单的Url重定向开始，目标是打造一款自动化漏洞挖掘的工具，该插件目前可实现自动化获取burp流量，并通过内置Payload方法进行Fuzzing，会将成功跳转的请求相关信息展示在页面中，用户可根据需求进一步操作及判断，目前涵盖到的Payload为作者通过Github、Freebuf、安全客、奇安信攻防社区等方面收集到的Payload结合后统计的，基本上已经涵盖了全部可能性。所以在测试过程中，可尽情的点击测试功能，该款插件会帮助你自动去识别流量，当你测试完毕的时候，只需点击插件UI界面查看是否有结果即可，是一款捡洞必备的工具，在今年，该工具已经帮助诸多白帽子获取各大SRC平台的中秋礼盒及春节礼盒。
-	该插件不会仅仅局限于Url重定向，Url重定向只是这个插件的开始。
+  该插件从最简单的Url重定向开始，目标是打造一款自动化漏洞挖掘的工具，该插件目前可实现自动化获取burp流量，并通过内置Payload方法进行Fuzzing，会将成功跳转的请求相关信息展示在页面中，用户可根据需求进一步操作及判断，目前涵盖到的Payload为作者通过Github、Freebuf、安全客、奇安信攻防社区等方面收集到的Payload结合后统计的，基本上已经涵盖了全部可能性。所以在测试过程中，可尽情的点击测试功能，该款插件会帮助你自动去识别流量，当你测试完毕的时候，只需点击插件UI界面查看是否有结果即可，是一款捡洞必备的工具，在今年，该工具已经帮助诸多白帽子获取各大SRC平台的中秋礼盒及春节礼盒。
+
+        该插件不会仅仅局限于Url重定向，Url重定向只是这个插件的开始。
 
 ## 安装方法
 1、在Burp中的Extender中点击Add添加
@@ -38,9 +39,19 @@
 
 
 ## 使用反馈
-  <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210129886-89053bdb-8de5-4639-9aff-6aca8a30637a.png">
-  <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210129888-6389092d-66bc-48d6-a2ba-55b65dcbe8f2.png">
+用户A
+	通过该插件，梅开二度，并结合其他漏洞，结合形成组合拳攻击，在某平台上提交两个高危漏洞，并获取该平台的春节礼盒
+	
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210129886-89053bdb-8de5-4639-9aff-6aca8a30637a.png">
+
+用户B：
+	通过该插件，在某平台上获取新人新春礼盒，该平台的新春礼盒真的好看，收到反馈后，作者表示羡慕死了
+	
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210129888-6389092d-66bc-48d6-a2ba-55b65dcbe8f2.png">
+
+作者：
+	通过该插件捡了个重定向漏洞，不多不少，刚好凑齐最后一宫格新春礼盒
+	
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210129896-33d89df1-ab4a-4451-90db-527d697d7159.png">
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210129899-14f2014c-88bc-4838-832f-a98f67a9c34e.png">
 
 
