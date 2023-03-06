@@ -31,15 +31,16 @@
 ## 使用方法
 一、扫描显现
 这块内容，会在插件检测到存在跳转漏洞时会将对应请求类型、请求头、请求Url、触发参数显现出来，显现出来后，也可将其发制Repeater模块进一步操作，具体不再演示，此处存在不可避免的误报情况。某些网站会检测出跳转到它们的多级域名下的情况，此处为误报。
+
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010025-1cc50d29-ef75-4433-af03-2b429aded4c2.png">
+
 二、扫描设置
 2.1 白名单设置
-	此处可设置白名单
+此处可设置白名单
 	
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010048-126dac33-aaff-43bc-9eba-d609446166f7.png">
 	
-	白名单可有四个按钮进行设置，第一个“Add”为在输入框输入后依次添加，第二个“Clear”为清除白名单中所有内容，第三个“Remove”依次从下到上移除信息，第四个“LoadFile“为加载外部txt文件(仅支持txt文件)
-	例如，不测试test.com的域名，那么直接添加test.com
+白名单可有四个按钮进行设置，第一个“Add”为在输入框输入后依次添加，第二个“Clear”为清除白名单中所有内容，第三个“Remove”依次从下到上移除信息，第四个“LoadFile“为加载外部txt文件(仅支持txt文件)，例如，不测试test.com的域名，那么直接添加test.com
 	
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010224-0cae19c8-df93-49b2-a7a9-51f1b53ac1f7.png">
 
