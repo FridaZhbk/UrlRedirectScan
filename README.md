@@ -29,13 +29,24 @@
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210027039-b503f30e-e2c9-402f-b486-9b13ffdf0211.png">
 
 ## 使用方法
-1、该插件可自动获取Logger中的所有流量信息，也就是经过Burp的所有httpl巨量，插件捕获流量信息后会去自动进行请求包Fuzzing，将Fuzzing后成功的请求包发送到插件的UI界面中展现，包括请求方法，Host、Url、Paramas信息
-  
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210027086-438b8f35-31b4-4e16-9905-38605f7d7987.png">
+一、扫描显现
+这块内容，会在插件检测到存在跳转漏洞时会将对应请求类型、请求头、请求Url、触发参数显现出来，显现出来后，也可将其发制Repeater模块进一步操作，具体不再演示，此处存在不可避免的误报情况。某些网站会检测出跳转到它们的多级域名下的情况，此处为误报。
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010025-1cc50d29-ef75-4433-af03-2b429aded4c2.png">
+二、扫描设置
+2.1 白名单设置
+	此处可设置白名单
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010048-126dac33-aaff-43bc-9eba-d609446166f7.png">
+	白名单可有四个按钮进行设置，第一个“Add”为在输入框输入后依次添加，第二个“Clear”为清除白名单中所有内容，第三个“Remove”依次从下到上移除信息，第四个“LoadFile“为加载外部txt文件(仅支持txt文件)
+	例如，不测试test.com的域名，那么直接添加test.com
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010224-0cae19c8-df93-49b2-a7a9-51f1b53ac1f7.png">
+当然也可以加载外部文件，点击LoadFile后选择txt文件即可添加到白名单中
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010260-e52bf14a-adaf-4b33-b040-993a8ccd005a.png">
+旁边的参数Params与Payloads都是类似的操作。
+插件保留了原先设定的内置参数及payload，可以在此处进行选择
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010290-2cb4e77d-6dc1-461c-b9df-a475d6c83165.png">
+Self代表使用插件内置参数及Payload
+Set代表使用用户自己设置的参数及Payload	
 
-2、如果利用内置payload未检测成功，会在此处打印检测了xxxx，没检测到。可根据输出的关键信息在burp流量中进行搜索，并根据自己的需求进行二次构造。
-
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/210027170-0ce55e9e-400a-4652-b9b3-03302e580d53.png">
 
 
 ## 使用反馈
