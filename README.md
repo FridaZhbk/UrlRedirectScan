@@ -35,15 +35,23 @@
 二、扫描设置
 2.1 白名单设置
 	此处可设置白名单
+	
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010048-126dac33-aaff-43bc-9eba-d609446166f7.png">
+	
 	白名单可有四个按钮进行设置，第一个“Add”为在输入框输入后依次添加，第二个“Clear”为清除白名单中所有内容，第三个“Remove”依次从下到上移除信息，第四个“LoadFile“为加载外部txt文件(仅支持txt文件)
 	例如，不测试test.com的域名，那么直接添加test.com
+	
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010224-0cae19c8-df93-49b2-a7a9-51f1b53ac1f7.png">
+
 当然也可以加载外部文件，点击LoadFile后选择txt文件即可添加到白名单中
+
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010260-e52bf14a-adaf-4b33-b040-993a8ccd005a.png">
+
 旁边的参数Params与Payloads都是类似的操作。
 插件保留了原先设定的内置参数及payload，可以在此处进行选择
+
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/64958753/223010290-2cb4e77d-6dc1-461c-b9df-a475d6c83165.png">
+
 Self代表使用插件内置参数及Payload
 Set代表使用用户自己设置的参数及Payload	
 
